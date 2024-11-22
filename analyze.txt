@@ -1,0 +1,19 @@
+Time Complexity
+Graph Construction: 
+O(V+E)O(V+E), where V is the number of vertices and E is the number of edges.
+
+Priority Queue Operations: Each vertex is inserted and extracted once, so 
+O(V log V)O(VlogV). For each edge, the heapq.heappush or update operation takes 
+O(logV)O(logV), giving O(ElogV) O(ElogV).
+
+Overall Complexity: 
+O((V+E)logV)
+Space Complexity
+Adjacency List Representation: 
+O(V+E)
+Priority Queue: 
+O(V)
+Distance and Predecessor Dictionaries: 
+O(V)
+Total Space Complexity: 
+O(V+E)
